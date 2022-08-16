@@ -1,0 +1,11 @@
+import { Colors } from "@utils/global/colors";
+import { ninetyPercentWidth } from "@utils/global/constants";
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    backgroundColor: Colors["DuroPP/07"],
+  },
+});
